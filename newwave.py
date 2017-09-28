@@ -87,11 +87,10 @@ def play(sounds=data):
                     rate=fs,
                     output=True)
 
-    for vowel in sounds: # ['a','ɪ','ɪ','ɪ','a','ɪ','ə','ɛ','ɪ','ə','ɪ','ə']:
+    for vowel in sounds:
         print(vowel)
-        ###
+        # plays the sound
         stream.write(volume*sound(vowel))
-        ###
 
         # creates the .wav file, uncomment to re-create the files
         #scipy.io.wavfile.write('%s.wav' % vowel, fs, volume*sound(vowel))
