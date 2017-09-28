@@ -5,7 +5,7 @@ sampa_to_ipa = {
     'i': 'iː',
     'I': 'ɪ',
     'E': 'ɛ',
-    '{': 'a',
+    'a': 'a', # æ, instead of { which causes problems in command line
     'A': 'ɑː',
     'Q': 'ɒ',
     'O': 'ɔː',
